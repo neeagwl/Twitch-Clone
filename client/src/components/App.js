@@ -1,4 +1,3 @@
-// 743062863682-h1bvt7thkpfr6c1rev3eb4pr2ln9s1tc.apps.googleusercontent.com
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import StreamList from './streams/StreamList';
