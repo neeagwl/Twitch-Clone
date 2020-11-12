@@ -13,7 +13,7 @@ class StreamList extends React.Component {
             return (
                 <div className="right floated content">
                     <Link to={`streams/edit/${id}`} className="small ui inverted primary button">EDIT</Link>
-                    <button className="small ui inverted red button">DELETE</button>
+                    <Link to={`streams/delete/${id}`} className="small ui inverted red button">DELETE</Link>
                 </div>
             )
         }
@@ -38,7 +38,7 @@ class StreamList extends React.Component {
                     
                     <i className="large middle aligned icon camera" />
                     <div className="content">
-                        {title}
+                        <Link to={`/streams/${id}`} className="header">{title}</Link>
                         <div className="description">
                             {description}
                         </div>
